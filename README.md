@@ -13,9 +13,9 @@ o autorze i temacie projektu.
 
 **PrzykÅ‚adowy format**:
 
-| Index  | Student     | Temat  | Opis                      | Grupa |
-|-------|--------------|--------|---------------------------|-------|
-| 14870 | Tomasz GÄ…dek | Szachy | Testy logiki ruchu goÅ„cem | PO1   |
+| Index  | Student     | Temat  | Opis                                                                                                                     | Grupa |
+|-------|--------------|--------|--------------------------------------------------------------------------------------------------------------------------|-------|
+| 34280 | Kacper Dworak | System generowania kodu źródłowego w języku Java/Python na podstawie predefiniowanych sieci działań | Testy logiki ruchu goÅ„cem | PO1   |
 
 Tematyka projektu jest dowolna. MoÅ¼e to byÄ‡ wycinek funkcjonalnoÅ›ci z PaÅ„stwa pracy inÅ¼ynierskiej. Nie moÅ¼e to byÄ‡ caÅ‚a praca dyplomowa. MoÅ¼e to
 byÄ‡ fragment funkcjonalnoÅ›ci, ktÃ³ry powinien byÄ‡ solidnie przetestowany. **Bardzo proszÄ™ nie wybieraÄ‡ projektÃ³w, ktÃ³re realizowaliÅ›my na laboratorium z kursu TiJO!**
