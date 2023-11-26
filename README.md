@@ -9,7 +9,9 @@ System generowania kodu źródłowego w języku Java/Python na podstawie predefi
 ## Opis projektu
 Testy generowania kodu źrudłowego
 ## Uruchomienie projektu
+
 ## Uruchomienie testów jednostkowych i integracyjnych
+uruchomienie compilacji testy 
 ## Dokumentacja API
 ## Scenariusze testowe dla testera manualnego
 wprowadzanie testów skopiować i wklejić pojedynczo do pliku "INPUT.CC"
