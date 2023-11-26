@@ -12,7 +12,7 @@ Testy generowania kodu źrudłowego
 ## Uruchomienie testów jednostkowych i integracyjnych
 ## Dokumentacja API
 ## Scenariusze testowe dla testera manualnego
-wprowadzanie testów skpoiować i wklejić pojedynczo do pliku "INPUT.CC"
+wprowadzanie testów skopiować i wklejić pojedynczo do pliku "INPUT.CC"
 poczym odpalić Main.java
 
 **1.Simple Sequence:**
