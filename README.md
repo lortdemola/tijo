@@ -9,43 +9,32 @@ System generowania kodu źródłowego w języku Java/Python na podstawie predefi
 ## Opis projektu
 Testy generowania kodu źrudłowego
 ## Uruchomienie projektu
-
 ## Uruchomienie testów jednostkowych i integracyjnych
-uruchomienie compilacji testy 
+uruchomienie compilacji Testy 1 -jednostkowych<br>uruchomienie compilacji Testy 2 -integracyjnych
 ## Dokumentacja API
 ## Scenariusze testowe dla testera manualnego
 wprowadzanie testów skopiować i wklejić pojedynczo do pliku "INPUT.CC"
 poczym odpalić Main.java
 
-**1.Simple Sequence:**
-Seq(x,y)
+| Test Case ID | Opis | Kroki testowe | Oczekiwany wynik |
+|---|---|---|---|
+| TM_1 | Simple Sequence | 1. Wprowadz **Seq(x,y)** do pola input text <br>2. kliknij generate | Wynik końcowy:<br>true<br> |
+| TM_2 | Nested Sequences incorrect | 1. Wprowadz **Seq(Seq(a,b),Seq(c,d))** do pola input text<br>2. kliknij generate | Wynik końcowy:<br>false |
+| TM_3 | Conditional with Sequences incorrect | 1. Wprowadz **Cond(p,Seq(q,r),Seq(s,t))** do pola input text<br>2. kliknij generate | Wynik końcowy:<br>false |
+| TM_4 | Parallel Structure | 1. Wprowadz **Para(Para(a,b,c,d),e,f,g)** do pola input text<br>2. kliknij generate | Wynik końcowy:<br>true |
+| TM_5 | Loop with Nested Sequence | 1. Wprowadz **Loop(a,Seq(b,c),d,e)** do pola input text<br>2. kliknij generate | Wynik końcowy:<br>true |
+| TM_6 | Choice with Alternatives | 1. Wprowadz **Choice(a,Choice(a,b,c,d),e,f)** do pola input text<br>2. kliknij generate | Wynik końcowy:<br>true |
+| TM_7 | Sequence of Conditions | 1. Wprowadz **Seq(Cond(a,b,c,x),Cond(d,e,f,s))** do pola input text<br>2. kliknij generate | Wynik końcowy:<br>true |
+| TM_8 | Alternative with Sequence and Loop | 1. Wprowadz **Alt(Seq(a,b),Loop(c,d,e,f),g)** do pola input text<br>2. kliknij generate | Wynik końcowy:<br>true |
+| TM_9 | Repeat with Nested Parallelism and Conditions | 1. Wprowadz **Repeat(Para(a,b,Cond(c,d,e,j),f),Seq(g,h),i,j)** do pola input text<br>2. kliknij generate | Wynik końcowy:<br>true |
+| TM_10 | Complex Nested Structure | 1. Wprowadz **Seq(a,Cond(b,Para(c,d,e,f),Loop(g,h,i,j),c))** do pola input text<br>2. kliknij generate | Wynik końcowy:<br>true |
 
-**2.Nested Sequences:**
-Seq(Seq(a,b),Seq(c,d))
-
-**3.Conditional with Sequences:**
-Cond(p,Seq(q,r),Seq(s,t))
-
-**4.Parallel Structure:**
-Para(Para(a,b,c,d),e,f,g)
-
-**5.Loop with Nested Sequence:**
-Loop(a,Seq(b,c),d,e)
-
-**6.Choice with Alternatives:**
-Choice(a,Choice(a,b,c,d),e,f)
-
-**7.Sequence of Conditions:**
-Seq(Cond(a,b,c,x),Cond(d,e,f,s))
-
-**8.Complex Nested Structure:**
-Seq(a,Cond(b,Para(c,d,e,f),Loop(g,h,i,j),c))
-
-**9.Alternative with Sequence and Loop:**
-Alt(Seq(a,b),Loop(c,d,e,f),g)
-
-**10.Repeat with Nested Parallelism and Conditions:**
-Repeat(Para(a,b,Cond(c,d,e,j),f),Seq(g,h),i,j)
 ## Technologie użyte w projekcie
+- Java 17
+- antlr4
+- groovy 3
+- JavaDoc
+- Fxml
+- Maven
 
 &copy; Akademia Tarnowska | Kacper Dworak
