@@ -19,8 +19,8 @@ poczym odpalić Main.java
 | Test Case ID | Opis | Kroki testowe | Oczekiwany wynik |
 |---|---|---|---|
 | TM_1 | Simple Sequence | 1. Wprowadz **Seq(x,y)** do pola input text <br>2. kliknij generate | Wynik końcowy:<br>true<br> |
-| TM_2 | Nested Sequences incorrect | 1. Wprowadz **Seq(Seq(a,b),Seq(c,d))** do pola input text<br>2. kliknij generate | Wynik końcowy:<br>false |
-| TM_3 | Conditional with Sequences incorrect | 1. Wprowadz **Cond(p,Seq(q,r),Seq(s,t))** do pola input text<br>2. kliknij generate | Wynik końcowy:<br>false |
+| TM_2 | Nested Sequences incorrect | 1. Wprowadz **Seq(,Seq(c,d))** do pola input text<br>2. kliknij generate | Wynik końcowy:<br>false |
+| TM_3 | Conditional with Sequences incorrect | 1. Wprowadz **Cond(p,Seq(q,r),Seq(t))** do pola input text<br>2. kliknij generate | Wynik końcowy:<br>false |
 | TM_4 | Parallel Structure | 1. Wprowadz **Para(Para(a,b,c,d),e,f,g)** do pola input text<br>2. kliknij generate | Wynik końcowy:<br>true |
 | TM_5 | Loop with Nested Sequence | 1. Wprowadz **Loop(a,Seq(b,c),d,e)** do pola input text<br>2. kliknij generate | Wynik końcowy:<br>true |
 | TM_6 | Choice with Alternatives | 1. Wprowadz **Choice(a,Choice(a,b,c,d),e,f)** do pola input text<br>2. kliknij generate | Wynik końcowy:<br>true |
