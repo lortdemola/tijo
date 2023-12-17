@@ -12,6 +12,9 @@ Testy generowania kodu źrudłowego
 ## Uruchomienie testów jednostkowych i integracyjnych
 uruchomienie compilacji Testy 1 -jednostkowych<br>uruchomienie compilacji Testy 2 -integracyjnych
 ## Dokumentacja API
+[a link](https://github.com/user/repo/blob/branch/other_file.md)
+<a href="https://github.com/lortdemola/tijo/blob/main/doc/index.html#CollectionsFramework">
+Javadoc aplikacji</a>.
 ## Scenariusze testowe dla testera manualnego
 wprowadzanie testów skopiować i wklejić pojedynczo do pliku "INPUT.CC"
 poczym odpalić Main.java
