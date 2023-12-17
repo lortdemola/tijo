@@ -8,9 +8,9 @@
 System generowania kodu źródłowego w języku Java/Python na podstawie predefiniowanych sieci działań
 ## Opis projektu
 ![image](https://github.com/lortdemola/tijo/assets/97162568/e21ce9e2-d75d-4768-ac47-acfb60cb2bf1)
-
 Testy generowania kodu źrudłowego
 ## Uruchomienie projektu
+uruchomienie compilacji HelloApplication
 ## Uruchomienie testów jednostkowych i integracyjnych
 uruchomienie compilacji Testy 1 -jednostkowych<br>uruchomienie compilacji Testy 2 -integracyjnych
 ## Dokumentacja API
