@@ -16,6 +16,7 @@ uruchomienie compilacji Testy 1 -jednostkowych<br>uruchomienie compilacji Testy 
 ## Dokumentacja API
 <a href="https://github.com/lortdemola/tijo/blob/main/doc/index.html#CollectionsFramework">
 Javadoc aplikacji</a>.
+##
 ## Scenariusze testowe dla testera manualnego
 wprowadzanie testów skopiować i wklejić pojedynczo do pliku "INPUT.CC"
 poczym odpalić Main.java
