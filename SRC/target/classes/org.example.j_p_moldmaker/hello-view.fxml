@@ -99,7 +99,7 @@
 
                   </children>
                </GridPane>
-              <TextField fx:id="Text" minHeight="-Infinity"  promptText="Seq(task1,task2)" VBox.vgrow="SOMETIMES">
+              <TextField fx:id="Text" minHeight="-Infinity"   promptText="Seq(task1,task2)" VBox.vgrow="SOMETIMES">
                   <font>
                      <Font size="16.0" />
                   </font></TextField>
