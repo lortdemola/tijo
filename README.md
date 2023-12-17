@@ -15,8 +15,8 @@ uruchomienie compilacji HelloApplication
 uruchomienie compilacji Testy 1 -jednostkowych<br>uruchomienie compilacji Testy 2 -integracyjnych
 ## Dokumentacja API
 <a href="https://github.com/lortdemola/tijo/blob/main/doc/index.html#CollectionsFramework">
-Javadoc aplikacji</a>.
-##
+Javadoc aplikacji</a>. dokumentacja w formie javadoc
+
 ## Scenariusze testowe dla testera manualnego
 wprowadzanie testów skopiować i wklejić pojedynczo do pliku "INPUT.CC"
 poczym odpalić Main.java
